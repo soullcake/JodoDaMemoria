@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #8a7fff, #f97aff);
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    border: 1px solid black;
+    background-color: #ffd4e4 ;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+}
+
+#jogar{
+    width: 20%;
+}
+
+#mostrarTudo{
+    width: 20%;
+}
