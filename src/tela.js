@@ -23,7 +23,7 @@ class Tela{
     static obterCodigoHtml(item){
         return `
         <div class="col-md-3">
-            <div class="card" style="width: 75%;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
+            <div class="card" style="width: 75%; border-radius: 15%;" onclick="window.verificarSelecao('${item.id}', '${item.nome}')">
                 <img name="${item.nome}" src="${item.img}" class="card-img-top" alt="..." />
             </div>
             <br />
